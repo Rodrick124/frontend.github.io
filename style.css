@@ -1,0 +1,416 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  .main-container{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+  }
+
+  #navbar ul { 
+  margin: 0px; 
+  padding: 100px; 
+  list-style-type: none; 
+  background-color: #fffdfd; 
+  } 
+
+#navbar ul li {  
+  display: inline; 
+  } 
+
+#navbar ul li a { 
+  text-decoration: none; 
+  padding: .2em 1em; 
+  color: #0f0f0f; 
+  background-color: #fffefe; 
+  } 
+
+#navbar ul li a:hover { 
+  color: #000; 
+  background-color: #fff; 
+  } 
+
+.nav-items{
+  display: flex;
+  justify-content: space-between;
+}
+#navbar ul li button{
+  border-radius: 20px;
+  padding: 2px 15px;
+  border: 2px solid pink;
+  background-color: white;
+  color: pink;
+  font-size: large;
+}
+#navbar ul li button:hover{
+  cursor: pointer;
+}
+.hero{
+  text-align: center;
+  margin: 100px 0px;
+}
+.hero h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: xx-large;
+}
+.hero p{
+  padding: 0px 400px;
+  color: grey;
+}
+.button{
+  border-radius: 40px;
+  margin: 10px;
+  padding: 15px 100px;
+  background-color: rgb(207, 113, 191);
+  color: white;
+  border: rgb(207, 113, 191);
+  font-size: large;
+
+}
+.sector-image img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.values{
+  display: flex;
+  justify-content: space-around;
+  font-size: xx-large;
+
+}
+.values img{
+  max-width: 30px;
+  max-height: 30px;
+}
+.values p{
+  color: gray;
+  font-size: medium;
+  padding: 0;
+}
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.con{
+  background-color: aliceblue;
+}
+.back{
+  display: block;
+  width: 100%;
+}
+
+.get{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.diver{
+  display: flex;
+  justify-content:space-around;
+  padding: 0;
+}
+.diver img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.controll{
+  padding: 200px;
+  margin: 0px;
+  background-color: aliceblue;
+}
+.flowing{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 200px;
+
+}
+.flowing img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.flowing p{
+  width: 400px;
+  justify-content: center;
+}
+.flow-content{
+  padding: 200px;
+}
+.build{
+  text-align: center;
+  margin: 100px;
+}
+.build button{
+  border-radius: 40px;
+  margin: 10px;
+  padding: 15px 100px;
+  background-color: rgb(207, 113, 191);
+  color: white;
+  border: rgb(207, 113, 191);
+  font-size: large;
+}
+.info img{
+  filter: brightness(0) invert(1);
+  padding: 0px 10px;
+}
+.info{
+  width: 50%;
+  margin: 50px;
+}
+.contain{
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(192, 100%, 9%);
+  color: #fff;
+  padding: 10px 100px;
+}
+.newletter{
+  margin: 50px;
+  width: 50%;
+}
+.newletter input{
+  height: 25px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.newletter button{
+  background-color:  hsl(322, 100%, 66%);
+  color: #fff;
+  padding: 9px 25px;
+  border-radius: 20px;
+}
+.icon{
+  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  justify-content: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+.icon p img{
+  filter: brightness(0) invert(1);
+  width: 25px;
+}
+.icon p{
+  padding: 10px;
+}
+
+
+@media screen and (min-width: 1440px){
+  body{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: large;
+  }
+  .main-container{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  #navbar ul { 
+  margin: 0px; 
+  padding: 50px; 
+  list-style-type: none; 
+  background-color: #fffdfd; 
+  } 
+
+#navbar ul li {  
+  display: inline; 
+  } 
+
+#navbar ul li a { 
+  text-decoration: none; 
+  padding: 2em 1em; 
+  color: #0f0f0f; 
+  background-color: #fffefe; 
+  } 
+
+#navbar ul li a:hover { 
+  color: #000; 
+  background-color: #fff; 
+  } 
+
+.nav-items{
+  display: flex;
+  justify-content: space-between;
+}
+#navbar ul li button{
+  border-radius: 20px;
+  padding: 2px 15px;
+  border: 2px solid pink;
+  background-color: white;
+  color: pink;
+  font-size: large;
+}
+#navbar ul li button:hover{
+  cursor: pointer;
+}
+.hero{
+  text-align: center;
+  margin: 100px 0px;
+}
+.hero h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: xx-large;
+}
+.hero p{
+  padding: 0px 400px;
+  color: grey;
+}
+.button{
+  border-radius: 40px;
+  margin: 10px;
+  padding: 15px 100px;
+  background-color: rgb(207, 113, 191);
+  color: white;
+  border: rgb(207, 113, 191);
+  font-size: large;
+
+}
+.sector-image img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.values{
+  display: flex;
+  justify-content: space-around;
+  font-size: xx-large;
+
+}
+.values img{
+  max-width: 30px;
+  max-height: 30px;
+}
+.values p{
+  color: gray;
+  font-size: medium;
+  padding: 0;
+}
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.con{
+  background-color: aliceblue;
+}
+.back{
+  display: block;
+  width: 100%;
+}
+
+.get{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.diver{
+  display: flex;
+  justify-content:space-around;
+  padding: 0;
+}
+.diver img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.controll{
+  padding: 200px;
+  margin: 0px;
+  background-color: aliceblue;
+}
+.flowing{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 200px;
+
+}
+.flowing img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.flowing p{
+  width: 400px;
+  justify-content: center;
+}
+.flow-content{
+  padding: 200px;
+}
+.build{
+  text-align: center;
+  margin: 100px;
+}
+.build button{
+  border-radius: 40px;
+  margin: 10px;
+  padding: 15px 100px;
+  background-color: rgb(207, 113, 191);
+  color: white;
+  border: rgb(207, 113, 191);
+  font-size: large;
+}
+.info img{
+  filter: brightness(0) invert(1);
+  padding: 0px 10px;
+}
+.info{
+  width: 50%;
+  margin: 50px;
+}
+.contain{
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(192, 100%, 9%);
+  color: #fff;
+  padding: 10px 100px;
+}
+.newletter{
+  margin: 50px;
+  width: 50%;
+}
+.newletter input{
+  height: 25px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.newletter button{
+  background-color:  hsl(322, 100%, 66%);
+  color: #fff;
+  padding: 9px 25px;
+  border-radius: 20px;
+}
+.icon{
+  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  justify-content: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+.icon p img{
+  filter: brightness(0) invert(1);
+  width: 25px;
+}
+.icon p{
+  padding: 10px;
+}
+}
